@@ -1,15 +1,9 @@
 "use client";
-
 import React, { useState } from "react";
-import Image from "next/image";
-import bgAbout from "@/assets/about/about-forestlake.jpg";
-import { AiOutlineArrowRight } from "react-icons/ai";
-const page = () => {
-  const [isShowModal, setshowModal] = useState(false);
 
+const page = () => {
   const submitHandle = (e: any) => {
     e.preventDefault();
-    setshowModal(!isShowModal);
   };
   return (
     <>
