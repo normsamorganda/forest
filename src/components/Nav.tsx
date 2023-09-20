@@ -29,14 +29,14 @@ const Nav = () => {
     {
       id: 3,
       title: "About",
-      href: "/",
+      href: "/about",
       class:
         "hover:text-green-500 hover:border-b hover:border-green-600 cursor-pointer",
     },
     {
       id: 4,
       title: " Contact Us",
-      href: "/",
+      href: "/contact",
       class:
         "hover:text-green-500 hover:border-b hover:border-green-600 cursor-pointer",
     },

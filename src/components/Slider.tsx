@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 //images
 import slider1 from "@/assets/slide/slider.jpg";
@@ -22,9 +22,12 @@ export default function Slider() {
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination, Navigation]}
-        loop={true}
+        modules={[Pagination, Navigation, Autoplay]}
         className="cursor-pointer"
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
       >
         <SwiperSlide>
           <div

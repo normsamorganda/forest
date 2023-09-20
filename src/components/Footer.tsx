@@ -122,7 +122,7 @@ const Footer = () => {
           {/* <TbGrave className="text-gray-500 w-[120px] h-[80px]" /> */}
           <p className="text-lg text-gray-500">Subscribe to Newsletter</p>
           <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight focus:outline-none h-[50px] w-5/12"></input>
-          <button className="text-lg text-gray-500 bg-green-500 px-3 py-2 rounded-lg">
+          <button className="text-lg text-gray-500 bg-green-500 px-3 py-2 rounded-lg hover:brightness-[1.5]">
             Subscribe
           </button>
         </div>
