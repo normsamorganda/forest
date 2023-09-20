@@ -86,8 +86,8 @@ const Footer = () => {
           <div className="text-gray-500 w-[350px]">
             <p className="p-3">Forest Lake Development Inc.</p>
             <p className="p-3">
-              Alexcy One Building Third Floor, 51, President's Ave, Parañaque,
-              1718 Metro Manila
+              Alexcy One Building Third Floor, 51, President&apos;s Ave,
+              Parañaque, 1718 Metro Manila
             </p>
             <p className="p-3">Email: info@forestlakeparks.com</p>
           </div>
@@ -139,8 +139,8 @@ const Footer = () => {
         <div className="text-gray-500 w-[350px] pl-5 pt-5">
           <p>Forest Lake Development Inc.</p>
           <p>
-            Alexcy One Building Third Floor, 51, President's Ave, Parañaque,
-            1718 Metro Manila
+            Alexcy One Building Third Floor, 51, President&apos;s Ave,
+            Parañaque, 1718 Metro Manila
           </p>
           <p>Email: info@forestlakeparks.com</p>
         </div>

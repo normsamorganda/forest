@@ -30,7 +30,8 @@ const Funeral = () => {
               FUNERAL SUPPORT
             </h1>
             <p className="p-5">
-              If you'd like to speak to us directly, call free 24 hours a day.
+              If you&apos;d like to speak to us directly, call free 24 hours a
+              day.
             </p>
             <div className="p-5">
               <p className="flex gap-3 items-center">

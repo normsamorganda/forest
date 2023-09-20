@@ -74,11 +74,8 @@ export default function page() {
       >
         {cardDesc.map((desc) => {
           return (
-            <SwiperSlide>
-              <div
-                key={desc.id}
-                className="flex flex-col w-[350px] rounded-lg bg-white mt-6 mx-auto"
-              >
+            <SwiperSlide key={desc.id}>
+              <div className="flex flex-col w-[350px] rounded-lg bg-white mt-6 mx-auto">
                 <div className="w-[300px] h-[400px] overflow-hidden relative mx-auto">
                   <Image
                     src={desc.img}
